@@ -1,1 +1,54 @@
-/* Codes Update soonn */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://images.unsplash.com/vector-1746092444052-661ae4de13a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmF0dXJlfGVufDB8MHwwfHx8MA%3D%3D");
+    background-size:cover;
+}
+h1{
+    font-weight: bolder;
+    letter-spacing:4px;
+    position: relative;
+    right:30px;
+    text-shadow: 1px 1px 4px white;
+}
+.clock{
+    display:flex;
+}
+.clock div{
+   margin: 5px;
+}
+.clock span{
+    height:80px;
+    width:100px;
+    background-color: purple;
+    opacity: 0.8;
+    border-radius:10px;
+    margin:5px;
+    display: flex;
+    font-size:50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.clock .text{
+    height: 30px;
+    font-size:17px;
+    background-color:rgba(0,0,0,0.5);
+    font-weight: bolder;
+    letter-spacing:1px;
+}
+.clock #ampm{
+    background-color: lightgreen;
+    width:80px;
+    height: 40px;
+    font-size:30px;
+    background-color:rgba(0,0,0,0.5);
+    font-weight: bolder;
+    letter-spacing:3px;
+}
